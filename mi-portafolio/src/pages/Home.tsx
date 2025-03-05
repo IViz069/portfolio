@@ -2,6 +2,7 @@ import * as React from "react";
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
 import { FaGithub, FaLinkedin, FaTwitter, FaJava, FaReact, FaDocker, FaAws } from "react-icons/fa";
+import { SiSpring } from "react-icons/si";
 
 export default function Home() {
   return (
@@ -51,6 +52,7 @@ export default function Home() {
       {/* 🔹 Tecnologías */}
       <h2 className="text-2xl font-bold mt-8">Tecnologías que uso</h2>
       <div className="mt-4 flex space-x-6">
+        <SiSpring className="text-5xl text-green-500" />
         <FaJava className="text-5xl text-yellow-500" />
         <FaReact className="text-5xl text-blue-400" />
         <FaDocker className="text-5xl text-blue-300" />
