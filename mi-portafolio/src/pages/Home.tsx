@@ -1,17 +1,20 @@
 import * as React from "react";
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
-import { FaGithub, FaLinkedin, FaTwitter, FaJava, FaReact, FaDocker, FaAws } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter, FaJava, FaReact, FaDocker, FaAws, FaDownload } from "react-icons/fa";
 import { SiSpring } from "react-icons/si";
+import PageTransition from "../components/PageTransition";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <motion.section
-      className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white text-center"
-      initial={{ opacity: 0, y: -50 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 1 }}
-    >
+    <PageTransition>
+      <motion.section
+        className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white text-center"
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+      >
       {/* 🔹 Imagen de perfil */}
       <img
         src="https://github.com/IViz069.png" // Reemplaza con tu imagen si quieres
@@ -59,13 +62,25 @@ export default function Home() {
         <FaAws className="text-5xl text-orange-400" />
       </div>
 
-      {/* 🔹 Botón de Contacto */}
-      <a
-        href="/contact"
-        className="mt-6 px-6 py-3 bg-blue-500 text-white font-bold rounded-lg hover:bg-blue-700 transition"
-      >
-        Contáctame
-      </a>
-    </motion.section>
+      {/* 🔹 Botones de Acción */}
+      <div className="mt-8 flex flex-wrap gap-4 justify-center">
+        <Link
+          to="/contact"
+          className="px-8 py-3 bg-blue-500 text-white font-bold rounded-lg hover:bg-blue-700 transition-all transform hover:scale-105 shadow-lg"
+        >
+          Contáctame
+        </Link>
+
+        <a
+          href="/cv-kevin-koo.pdf"
+          download
+          className="px-8 py-3 bg-green-500 text-white font-bold rounded-lg hover:bg-green-700 transition-all transform hover:scale-105 shadow-lg flex items-center gap-2"
+        >
+          <FaDownload />
+          Descargar CV
+        </a>
+      </div>
+      </motion.section>
+    </PageTransition>
   );
 }

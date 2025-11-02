@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Java",
+    "category": "backend",
+    "level": "advanced"
+  },
+  {
+    "id": 2,
+    "name": "Spring Boot",
+    "category": "backend",
+    "level": "advanced"
+  },
+  {
+    "id": 3,
+    "name": "Docker",
+    "category": "devops",
+    "level": "intermediate"
+  },
+  {
+    "id": 4,
+    "name": "AWS",
+    "category": "cloud",
+    "level": "intermediate"
+  },
+  {
+    "id": 5,
+    "name": "Bitbucket",
+    "category": "tools",
+    "level": "intermediate"
+  },
+  {
+    "id": 6,
+    "name": "Python",
+    "category": "backend",
+    "level": "intermediate"
+  },
+  {
+    "id": 7,
+    "name": "C++",
+    "category": "backend",
+    "level": "basic"
+  }
+]

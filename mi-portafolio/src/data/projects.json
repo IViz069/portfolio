@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Apis ASO BBVA",
+    "description": "Desarrollo backend con Java y Spring Boot para el sector bancario. Implementación de APIs RESTful seguras y escalables.",
+    "technologies": ["Java", "Spring Boot", "PostgreSQL", "Docker", "AWS"],
+    "repoLink": "https://github.com/IViz069",
+    "image": null
+  },
+  {
+    "id": 2,
+    "title": "Apis Unibanca",
+    "description": "Desarrollo de APIs para sistemas bancarios con integración de microservicios y arquitectura orientada a eventos.",
+    "technologies": ["Java", "Spring Boot", "Kafka", "MongoDB", "Redis"],
+    "repoLink": "https://github.com/IViz069",
+    "image": null
+  },
+  {
+    "id": 3,
+    "title": "Proyectos Personales APIs",
+    "description": "Colección de APIs personales desarrolladas para aprendizaje y experimentación con diferentes tecnologías y patrones de diseño.",
+    "technologies": ["Java", "Spring Boot", "MySQL", "Docker"],
+    "repoLink": "https://github.com/IViz069",
+    "image": null
+  },
+  {
+    "id": 4,
+    "title": "Proyectos FullStack",
+    "description": "Aplicaciones full stack que combinan desarrollo backend con React y TypeScript en el frontend.",
+    "technologies": ["Java", "Spring Boot", "React", "TypeScript", "Tailwind CSS"],
+    "repoLink": "https://github.com/IViz069",
+    "image": null
+  }
+]
